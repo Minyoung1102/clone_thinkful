@@ -1,0 +1,33 @@
+.eight span {
+  display: block;
+}
+
+.eight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eight ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.eight .up {
+  font-size: 45px;
+  letter-spacing: 3px;
+  line-height: 42px;
+  padding-top: 100px;
+}
+
+.eight .down {
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 15px;
+}
+
+.eight ul li {
+  padding: 50px 20px;
+}

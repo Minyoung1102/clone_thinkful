@@ -1,0 +1,358 @@
+:root {
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #045fd4;
+  --red-color: #ff0000;
+  --gray-dark-color: #909090;
+  --gray-light-color: #e0e0e0;
+
+  --side-padding: 0 30px;
+  --avatar-size: 36px;
+
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: var(--black-color);
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black-color);
+  padding: 20px 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav button {
+  color: white;
+}
+.name {
+  display: flex;
+}
+
+.name button {
+  padding: 0 3px;
+}
+
+.menubar {
+  display: flex;
+  justify-content: end;
+}
+
+.menubar button {
+  padding: 0 8px;
+}
+
+.menubar button:hover,
+.menubar a:hover {
+  padding: 5px 2px;
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+
+.main .right{
+  width:360px;
+  font-size: 90px;
+  margin-left:50px;
+}
+
+
+
+.main .right p {
+  padding-top: 0px;
+}
+
+.main .right .info {
+  display: block;
+  font-size: 20px;
+  width: 315px;
+}
+
+.main .right .animation {
+  overflow: hidden;
+  border-right: 0.05em solid white;
+  white-space: nowrap;
+  letter-spacing: 0.1em;
+  animation: typing 2s steps(30, end) 1,
+    blink-caret 0.2s step-start infinite;
+  text-decoration: underline;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+    text-decoration: underline;
+  }
+  
+  100% {
+    width: 100%;
+    text-decoration: underline;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.Illana {
+  display: flex;
+  position: relative;
+  left: 20px;
+  padding-left: 100px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left .name {
+  writing-mode: vertical-lr;
+  font-size: 45px;
+  position: relative;
+  right: 25px;
+  top: 40px;
+}
+
+.left i {
+  color: var(--gray-dark-color);
+}
+
+.left .button {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.left .letter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left .letter .about {
+  padding-left: 10px;
+}
+
+.left .letter .f {
+  font-size: 17px;
+}
+
+.left .letter .t {
+  font-size: 22px;
+}
+
+.left .button i {
+  padding: 30px;
+  font-size: 30px;
+}
+
+.left button:hover {
+  background-color: white;
+}
+
+.email {
+  background-color: var(--gray-light-color);
+  padding-bottom: 50px;
+}
+
+.email span {
+  display: block;
+  text-align: center;
+}
+
+.email .up {
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding-top: 50px;
+  font-size: 38px;
+}
+
+.email .down {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.email .red {
+  display: block;
+  text-align: center;
+  color: red;
+  font-weight: 560;
+}
+
+.email input {
+  padding: 10px 20px;
+  width: 400px;
+  font-size: 15px;
+}
+
+.email .button {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.email button {
+  background-color: white;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.email button:active {
+  background-color: black;
+  color: white;
+}
+
+.white {
+  margin: 70px 15%;
+}
+
+.TRG img {
+  width: 330px;
+  height: 350px;
+}
+.TRG {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TRG .big {
+  font-size: 45px;
+  letter-spacing: 3px;
+  line-height: 42px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.TRG .small {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.fifth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 84px 36px;
+  margin: 0 200px 100px 200px;
+  height: 600px;
+}
+
+.fifth .letter{
+    display: block;
+    posi
+}
+
+.fifth .letter .up {
+  display: block;
+  font-size: 45px;
+  letter-spacing: 3px;
+  line-height: 42px;
+  width: 360px;
+}
+
+.fifth .letter .down {
+  display: block;
+  font-size: 16px;
+  letter-spacing: ;
+  line-height: 26px;
+  width: 360px;
+}
+
+.fifth .letter button {
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  padding: 10px 10px;
+  color: black;
+}
+
+.fifth .letter button:hover {
+  box-shadow: 3px 3px 0 rgb(0, 0, 0);
+  transform: translate(-3px, -3px);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+.fifth .image {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top:30%;
+}
+
+.fifth .image .greenhill img {
+  display: block;
+  height: 450px;
+  width: 300px;
+}
+
+.fifth .image .brown img {
+  display: block;
+  height: 300px;
+  width: 200px;
+}
+
+.fifth .image span {
+  display: block;
+  font-size: 15px;
+  color: #6d6a6a;
+  line-height: 18px;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+}
+
+.fifth .image .greenhill {
+  position: relative;
+  right: 30%;
+}
+
+.fifth .image .brown {
+  position: relative;
+  left: 65%;
+  bottom: 250px;
+}
+
+.fifth .image img {
+  box-shadow: 4px 5px 0 black;
+}

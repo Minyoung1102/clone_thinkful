@@ -1,0 +1,43 @@
+.seventh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+}
+
+.seventh img {
+  width: 600px;
+}
+
+.seventh .title {
+  font-size: 45px;
+  line-height: 47px;
+  letter-spacing: 3px;
+}
+
+.seventh .info {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  width: 420px;
+  padding-top: 10px;
+}
+
+.seventh button {
+  background-color: lightgray;
+  border: 1px solid black;
+  color: black;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 2.5px;
+  text-align: center;
+  height: 42px;
+  width: 440px;
+}
+
+.seventh button:hover {
+  box-shadow: 6px 7px 0 black;
+  transform: translate(-3px, -3px);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}

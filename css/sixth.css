@@ -1,0 +1,81 @@
+.sixth {
+  display: flex;
+  background-color: black;
+  height: 1300px;
+  padding: 0 100px;
+}
+
+.sixth span {
+  color: white;
+}
+
+.sixth .box {
+  padding: 70px 0 100px 0;
+  width: 1000px;
+  position: relative;
+  right: 30px;
+}
+
+.sixth a {
+  margin: 20px;
+}
+
+.sixth .programs {
+  display: inline-block;
+  font-size: 65px;
+  letter-spacing: 8px;
+  width: auto;
+  height: 200px;
+  transform: rotate(270deg);
+  position: relative;
+  top: 150px;
+}
+
+.sixth .box .a {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  padding: 10px 10px;
+  box-shadow: 4px 5px 0 white;
+  width: 1000px;
+  height: 170px;
+}
+
+.sixth .box .a:hover {
+  box-shadow: 6px 7px 0 white;
+  transform: translate(-3px, -3px);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+.sixth .box .a button {
+  color: gray;
+  text-decoration: underline gray;
+  letter-spacing: 3px;
+}
+
+.sixth .box .left .up {
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 35px;
+  padding: 10px 20px;
+}
+
+.sixth .box .left .down {
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.sixth .a .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.sixth .a .right {
+  width: 320px;
+  color: gray;
+}
